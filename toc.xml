@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><toc xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns="http://www.oxygenxml.com/ns/webhelp/toc">
+   <title><span xmlns="http://www.w3.org/1999/xhtml" class="title">STRAL 4D Database Instructions</span></title>
+   <topic href="javascript:void(0)" wh-toc-id="tocId-d66e11">
+      <title>Getting Started</title>
+      <topic href="4DIntro.html" data-id="concept_fwt_cw3_sfb" wh-toc-id="concept_fwt_cw3_sfb-d66e12">
+         <title>Introduction to 4D</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="concept_fwt_cw3_sfb"></resourceid>
+            <navtitle class="- topic/navtitle ">Introduction to 4D</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Introduction to 4D</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc "></shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="login.html" data-id="task_fvj_2wg_sfb" wh-toc-id="task_fvj_2wg_sfb-d66e22">
+         <title>Log into the 4D database</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Open the program and log in.</p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="task_fvj_2wg_sfb"></resourceid>
+            <navtitle class="- topic/navtitle ">Log into the 4D database</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Log into the 4D database</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Open the program and log in.</shortdesc>
+         </topicmeta>
+      </topic>
+   </topic>
+   <topic href="javascript:void(0)" wh-toc-id="tocId-d66e34">
+      <title>Entering a new order</title>
+      <topic href="enterNewOrder.html" data-id="untitled9" wh-toc-id="untitled9-d66e35">
+         <title>Enter a new soil testing order form</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">These instructions detail how to enter a new soil testing order form into the         database. There are two order types,
+               so step 2 will differ based on that.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="untitled9"></resourceid>
+            <navtitle class="- topic/navtitle ">Enter a new soil testing order form</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Enter a new soil testing order form</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">These instructions detail how to enter a new soil testing order form into the         database. There are two order types,
+               so step 2 will differ based on that.
+            </shortdesc>
+         </topicmeta>
+         <topic href="enterPayCustInto.html" data-id="untitled1" wh-toc-id="untitled1-d66e46">
+            <title>Enter payment and customer info on a new report</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Enter the information on the top half of the 4D data entry form. To enter information         for the bottom half of the form,
+                  see either <a class="xref" href="enterFFSample.html">enterFFSample.html</a> or <a class="xref" href="enterLGSample.html">enterLGSample.html</a>.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="untitled1"></resourceid>
+               <navtitle class="- topic/navtitle ">Enter payment and customer info on a new report</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Enter payment and customer info on a new report</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Enter the information on the top half of the 4D data entry form. To enter information         for the bottom half of the form,
+                  see either 
+                  <xref href="enterFFSample.dita" class="- topic/xref "></xref> or 
+                  <xref href="enterLGSample.dita" class="- topic/xref "></xref>.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="enterFFSample.html" data-id="enterFFSample" wh-toc-id="enterFFSample-d66e61">
+            <title>Enter "Farm &amp; Field" sample info</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Enter farm and field sample information for a new order.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="enterFFSample"></resourceid>
+               <navtitle class="- topic/navtitle ">Enter "Farm &amp; Field" sample info</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Enter "Farm &amp; Field" sample info</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Enter farm and field sample information for a new order.</shortdesc>
+            </topicmeta>
+            <topic href="FFTestList.html" data-id="FFTestList" wh-toc-id="FFTestList-d66e72">
+               <title>Farm &amp; Field test list</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">This is a table describing the test options you can select when entering new Farm         &amp; Field order forms.</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="FFTestList"></resourceid>
+                  <navtitle class="- topic/navtitle ">Farm &amp; Field test list</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Farm &amp; Field test list</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">This is a table describing the test options you can select when entering new Farm         &amp; Field order forms.</shortdesc>
+               </topicmeta>
+            </topic>
+         </topic>
+         <topic href="enterLGSample.html" data-id="enterLGSample" wh-toc-id="enterLGSample-d66e83">
+            <title>Enter "Lawn &amp; Garden" sample info</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Enter sample information for Lawn &amp; Garden samples.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="enterLGSample"></resourceid>
+               <navtitle class="- topic/navtitle ">Enter "Lawn &amp; Garden" sample info</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Enter "Lawn &amp; Garden" sample info</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Enter sample information for Lawn &amp; Garden samples.</shortdesc>
+            </topicmeta>
+         </topic>
+      </topic>
+   </topic>
+   <topic href="javascript:void(0)" wh-toc-id="tocId-d66e95">
+      <title>Reporting</title>
+      <topic href="printAllUnprinted.html" data-id="printAllUnprinted" wh-toc-id="printAllUnprinted-d66e96">
+         <title>Print All Unprinted Reports</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">This will print all unprinted reports with complete data. Complete this task         immediately after entering lab data.</p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="printAllUnprinted"></resourceid>
+            <navtitle class="- topic/navtitle ">Print All Unprinted Reports</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Print All Unprinted Reports</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">This will print all unprinted reports with complete data. Complete this task         immediately after entering lab data.</shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="reprintOneReport.html" data-id="reprintKnownOrder" wh-toc-id="reprintKnownOrder-d66e107">
+         <title>Reprint One Specific Report</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">This task will help you look up one specific order and print a paper         copy.</p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="reprintKnownOrder"></resourceid>
+            <navtitle class="- topic/navtitle ">Reprint One Specific Report</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Reprint One Specific Report</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">This task will help you look up one specific order and print a paper         copy.</shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="emailMasterTask.html" data-id="emailMasterTask" wh-toc-id="emailMasterTask-d66e118">
+         <title>Email One Specific Report</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">This task will break down the steps to email a soil test report.</p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="emailMasterTask"></resourceid>
+            <navtitle class="- topic/navtitle ">Email One Specific Report</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Email One Specific Report</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">This task will break down the steps to email a soil test report.</shortdesc>
+         </topicmeta>
+         <topic href="makeReportPDF.html" data-id="makeReportPDF" wh-toc-id="makeReportPDF-d66e129">
+            <title>Create a PDF for a Soil Report</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Using 4D, generate a PDF of one specific soil test report.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="makeReportPDF"></resourceid>
+               <navtitle class="- topic/navtitle ">Create a PDF for a Soil Report</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Create a PDF for a Soil Report</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Using 4D, generate a PDF of one specific soil test report.</shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="editReport.html" data-id="editReport" wh-toc-id="editReport-d66e140">
+            <title>Edit a Soil Report in Adobe Acrobat</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">4D's generated PDFs are often not ideal for email. You can increase the         professionalism of the report with the following
+                  steps using Adobe Acrobat DC. Steps #6-9         are optional if you are in a hurry.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="editReport"></resourceid>
+               <navtitle class="- topic/navtitle ">Edit a Soil Report in Adobe Acrobat</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Edit a Soil Report in Adobe Acrobat</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">4D's generated PDFs are often not ideal for email. You can increase the         professionalism of the report with the following
+                  steps using Adobe Acrobat DC. Steps #6-9         are optional if you are in a hurry.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="emailingReport.html" data-id="emailingReport" wh-toc-id="emailingReport-d66e151">
+            <title>Email a soil test report from the shared email</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">This will show you how to send a standard soil test report from the lab's shared         email address.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="emailingReport"></resourceid>
+               <navtitle class="- topic/navtitle ">Email a soil test report from the shared email</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Email a soil test report from the shared email</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">This will show you how to send a standard soil test report from the lab's shared         email address.</shortdesc>
+            </topicmeta>
+         </topic>
+      </topic>
+   </topic>
+   <topic href="javascript:void(0)" wh-toc-id="tocId-d66e163">
+      <title>Troubleshooting</title>
+      <topic href="decidingWhatToDo.html" data-id="decidingWhatToDo" wh-toc-id="decidingWhatToDo-d66e164">
+         <title>Troubleshooting Decision Tree</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">If there is a problem in 4D, consult the following list to see which actions are         recommended.</p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="decidingWhatToDo"></resourceid>
+            <navtitle class="- topic/navtitle ">Troubleshooting Decision Tree</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Troubleshooting Decision Tree</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">If there is a problem in 4D, consult the following list to see which actions are         recommended.</shortdesc>
+         </topicmeta>
+         <topic href="restart.html" data-id="task_ocx_ywg_sfb" wh-toc-id="task_ocx_ywg_sfb-d66e175">
+            <title>Restart the server</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Restart the server if you cannot access anything in the database. It may mean the         database is not running. This is
+                  also a helpful procedure if the database is crashing often         and you are not sure why.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="task_ocx_ywg_sfb"></resourceid>
+               <navtitle class="- topic/navtitle ">Restart the server</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Restart the server</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Restart the server if you cannot access anything in the database. It may mean the         database is not running. This is
+                  also a helpful procedure if the database is crashing often         and you are not sure why.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="updateAddress.html" data-id="task_kzn_ht3_sfb" wh-toc-id="task_kzn_ht3_sfb-d66e186">
+            <title>Update the network address</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">This procedure will allow you to access 4D if automatic updates changed the directory         names. </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="task_kzn_ht3_sfb"></resourceid>
+               <navtitle class="- topic/navtitle ">Update the network address</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Update the network address</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">This procedure will allow you to access 4D if automatic updates changed the directory         names. </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="repairData.html" data-id="task_ld5_yph_sfb" wh-toc-id="task_ld5_yph_sfb-d66e197">
+            <title>Repair corrupt data in 4D</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Certain tasks can corrupt data in the database and make you unable to open it. Try         this only if you know the crash
+                  happened after a specific data edit, or if the other two         troubleshooting methods were unsuccessful. See <a class="xref" href="decidingWhatToDo.html">decidingWhatToDo.html</a>.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="task_ld5_yph_sfb"></resourceid>
+               <navtitle class="- topic/navtitle ">Repair corrupt data in 4D</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Repair corrupt data in 4D</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Certain tasks can corrupt data in the database and make you unable to open it. Try         this only if you know the crash
+                  happened after a specific data edit, or if the other two         troubleshooting methods were unsuccessful. See 
+                  <xref href="decidingWhatToDo.dita" class="- topic/xref "></xref>.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+      </topic>
+   </topic>
+</toc>

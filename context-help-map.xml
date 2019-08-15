@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="concept_fwt_cw3_sfb" path="4DIntro.html"/>
+   <appContext helpID="task_fvj_2wg_sfb" path="login.html"/>
+   <appContext helpID="untitled9" path="enterNewOrder.html"/>
+   <appContext helpID="untitled1" path="enterPayCustInto.html"/>
+   <appContext helpID="enterFFSample" path="enterFFSample.html"/>
+   <appContext helpID="FFTestList" path="FFTestList.html"/>
+   <appContext helpID="enterLGSample" path="enterLGSample.html"/>
+   <appContext helpID="printAllUnprinted" path="printAllUnprinted.html"/>
+   <appContext helpID="reprintKnownOrder" path="reprintOneReport.html"/>
+   <appContext helpID="emailMasterTask" path="emailMasterTask.html"/>
+   <appContext helpID="makeReportPDF" path="makeReportPDF.html"/>
+   <appContext helpID="editReport" path="editReport.html"/>
+   <appContext helpID="emailingReport" path="emailingReport.html"/>
+   <appContext helpID="decidingWhatToDo" path="decidingWhatToDo.html"/>
+   <appContext helpID="task_ocx_ywg_sfb" path="restart.html"/>
+   <appContext helpID="task_kzn_ht3_sfb" path="updateAddress.html"/>
+   <appContext helpID="task_ld5_yph_sfb" path="repairData.html"/>
+</map>

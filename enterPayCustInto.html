@@ -1,0 +1,284 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2018" /><meta name="DC.rights.owner" content="(C) Copyright 2018" /><meta name="DC.Type" content="task" /><meta name="description" content="Enter the information on the top half of the 4D data entry form. To enter information for the bottom half of the form, see either Enter &#34;Farm &amp; Field&#34; sample info or Enter &#34;Lawn &amp; Garden&#34; sample info." /><meta name="DC.Relation" scheme="URI" content="enterNewOrder.html" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="untitled1" />        
+      <title>Enter payment and customer info on a new report</title><!--  Generated with Oxygen version 20.1-SNAPSHOT, build number 2018101515.  --><meta name="wh-path2root" content="" /><meta name="wh-toc-id" content="untitled1-d66e46" /><link rel="stylesheet" type="text/css" href="./oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="./oxygen-webhelp/lib/bootstrap/css/bootstrap-theme.min.css" /><link rel="stylesheet" href="./oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic-page.css?buildId=2018101515" /><script type="text/javascript" src="./oxygen-webhelp/lib/jquery/jquery-3.1.1.min.js"><!----></script><script data-main="./oxygen-webhelp/app/topic-page.js" src="./oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/oxygen.css?buildId=2018101515" /></head>
+
+    <body id="untitled1" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="index.html"><span class="title">STRAL 4D Database Instructions</span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggle collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul>
+   <li class="has-children"><span data-tocid="tocId-d66e11" data-state="not-ready" class=" topicref "><span class="title"><a href="4DIntro.html">Getting Started</a></span></span></li>
+   <li class="has-children"><span data-tocid="tocId-d66e34" data-state="not-ready" class=" topicref "><span class="title"><a href="enterNewOrder.html">Entering a new order</a></span></span></li>
+   <li class="has-children"><span data-tocid="tocId-d66e95" data-state="not-ready" class=" topicref "><span class="title"><a href="printAllUnprinted.html">Reporting</a></span></span></li>
+   <li class="has-children"><span data-tocid="tocId-d66e163" data-state="not-ready" class=" topicref "><span class="title"><a href="decidingWhatToDo.html">Troubleshooting</a></span></span></li>
+</ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div><script><!--
+                                    $(document).ready(function () {
+                                        $('#searchForm').submit(function (e) {
+                                            if ($('.wh_search_textfield').val().length < 1) {
+                                                e.preventDefault();
+                                            }
+                                        });
+                                    });
+                                --></script></form></div>
+        
+        <div class="container-fluid">
+            <div class="row">
+
+                <nav class="wh_tools hidden-print">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="hidden-print"><li><span class="home"><a href="index.html"><span>Home</span></a></span></li>
+   <li><span class="topicref"><span class="title"><a href="enterNewOrder.html">Entering a new order</a></span></span></li>
+   <li><span class="topicref" data-id="untitled9"><span class="title"><a href="enterNewOrder.html">Enter a new soil testing order form</a><span class="wh-tooltip">
+               
+               <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">These instructions detail how to enter a new soil testing order form into the         database. There are two order types,
+                  so step 2 will differ based on that.
+                  
+               </p>
+               </span></span></span></li>
+   <li class="active"><span class="topicref" data-id="untitled1"><span class="title"><a href="enterPayCustInto.html">Enter payment and customer info on a new report</a><span class="wh-tooltip">
+               
+               <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Enter the information on the top half of the 4D data entry form. To enter information         for the bottom half of the form,
+                  see either <a href="enterFFSample.html" class="xref">enterFFSample.html</a> or <a href="enterLGSample.html" class="xref">enterLGSample.html</a>.
+                  
+               </p>
+               </span></span></span></li>
+</ol></div>
+
+                    <div class="wh_right_tools hidden-sm hidden-xs">
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_print_link print "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-3 hidden-xs navbar hidden-print">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="tocId-d66e34" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d66e34-link" class="wh-expand-btn"></span><span class="title"><a href="enterNewOrder.html" id="tocId-d66e34-link">Entering a new order</a></span></span><ul role="group" class="nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="untitled9-d66e35" class="topicref" data-id="untitled9" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action untitled9-d66e35-link" class="wh-expand-btn"></span><span class="title"><a href="enterNewOrder.html" id="untitled9-d66e35-link">Enter a new soil testing order form</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">These instructions detail how to enter a new soil testing order form into the         database. There are two order types,
+                        so step 2 will differ based on that.
+                        
+                     </p>
+                     </span></span></span><ul role="group" class="nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" class="active"><span data-tocid="untitled1-d66e46" class="topicref" data-id="untitled1" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="enterPayCustInto.html" id="untitled1-d66e46-link">Enter payment and customer info on a new report</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Enter the information on the top half of the 4D data entry form. To enter information         for the bottom half of the form,
+                              see either <a href="enterFFSample.html" class="xref">enterFFSample.html</a> or <a href="enterLGSample.html" class="xref">enterLGSample.html</a>.
+                              
+                           </p>
+                           </span></span></span></li>
+               <li role="treeitem" aria-expanded="false"><span data-tocid="enterFFSample-d66e61" class="topicref" data-id="enterFFSample" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action enterFFSample-d66e61-link" class="wh-expand-btn"></span><span class="title"><a href="enterFFSample.html" id="enterFFSample-d66e61-link">Enter "Farm &amp; Field" sample info</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Enter farm and field sample information for a new order.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="enterLGSample-d66e83" class="topicref" data-id="enterLGSample" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="enterLGSample.html" id="enterLGSample-d66e83-link">Enter "Lawn &amp; Garden" sample info</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Enter sample information for Lawn &amp; Garden samples.</p>
+                           </span></span></span></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+</ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Enter payment and customer info on a new report</h1>
+    
+    <div class="body taskbody"><p class="shortdesc">Enter the information on the top half of the 4D data entry form. To enter information
+        for the bottom half of the form, see either <a class="xref" href="enterFFSample.html" title="Enter farm and field sample information for a new order.">Enter "Farm &amp; Field" sample info</a> or <a class="xref" href="enterLGSample.html" title="Enter sample information for Lawn &amp; Garden samples.">Enter "Lawn &amp; Garden" sample info</a>.</p>
+        <div class="section prereq p" id="untitled1__prereq_y44_bnp_sfb">You must be logged into the database. See <a class="xref" href="login.html" title="Open the program and log in.">Log into the 4D database</a>.</div>
+        <section class="section context">Hit <span class="ph uicontrol">Tab</span> to navigate between (most) of the menu options on
+            the top half of the screen. Type in all capital letters for easier reading by postal
+            scanners.</section>
+        <ol class="ol steps"><li class="li step stepexpand">
+                <span class="ph cmd">In the top drop-down menu, select <span class="ph uicontrol">Task</span> and then either
+                        <span class="ph uicontrol">Order Entry – Farm Field</span> or <span class="ph uicontrol">Order Entry –
+                        Lawn &amp; Garden</span> depending on the report type.</span>
+                <div class="itemgroup stepresult">A window will pop up with the following top half:<br /><img class="image" id="untitled1__image_qbd_ynn_5fb" src="lawnGardenOrderEntryTop.PNG" alt="Top half of lawn &amp; garden order entry form in 4D" /><br /></div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Click into the <span class="ph uicontrol">Pmt</span> field and enter the dollar amount. If
+                    the client will be billed later, leave it at $0.00 and skip to step 5.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">In the <span class="ph uicontrol">Typ</span> field, select either Cash or Check for
+                    payment type and click OK. .</span>
+                <div class="itemgroup info">
+                    <p class="p"><strong class="ph b">Note</strong>: Credit cards are entered under check</p>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">For the <span class="ph uicontrol">Ck#</span> field, enter the check number or "CC"
+                    followed by the last 4 digits of the credit card number found on their receipt.
+                    Cash payments are left clank If an order is overpaid, underpaid, or there is
+                    another special situation, write a quick note as seen in the examples
+                    below</span>
+                <div class="itemgroup info">
+                    <p class="p"><strong class="ph b">Note</strong>: If they over- or under- paid by $5 or more, do not enter the
+                        form and inform Stephanie.</p>
+                </div>
+                <div class="simpletable-container"><table border="1" frame="hsides" rules="rows" cellpadding="4" cellspacing="0" summary="" class="simpletable choicetable choicetableborder" id="untitled1__choicetable_rcm_fqn_5fb"><colgroup><col style="width:50%" /><col style="width:50%" /></colgroup><thead><tr class="sthead chhead"><th class="stentry choptionhd" style="vertical-align:bottom;text-align:left;" id="d1623e115-option">Situation</th><th class="stentry chdeschd" style="vertical-align:bottom;text-align:left;" id="d1623e115-desc">Note</th></tr></thead><tbody><tr class="strow chrow">
+                        <th style="vertical-align:top;" headers="d1623e115-option" id="d1623e128" class="stentry choption">Client underpaid #2 on check #8475</th>
+                        <td style="vertical-align:top;" headers="d1623e115-desc d1623e128" class="stentry chdesc">8476 U2</td>
+                    </tr><tr class="strow chrow">
+                        <th style="vertical-align:top;" headers="d1623e115-option" id="d1623e137" class="stentry choption">Client paid with cash and used a $2 off coupon</th>
+                        <td style="vertical-align:top;" headers="d1623e115-desc d1623e137" class="stentry chdesc">COUPON2</td>
+                    </tr><tr class="strow chrow">
+                        <th style="vertical-align:top;" headers="d1623e115-option" id="d1623e146" class="stentry choption">Client ordered soil package #1 on the Pro Turf Management Form and
+                            received a $1.50 discount off their check #2222 payment</th>
+                        <td style="vertical-align:top;" headers="d1623e115-desc d1623e146" class="stentry chdesc">2222 PTM150</td>
+                    </tr><tr class="strow chrow">
+                        <th style="vertical-align:top;" headers="d1623e115-option" id="d1623e155" class="stentry choption">Client paid $15 with check #3333 and $2 in cash.</th>
+                        <td style="vertical-align:top;" headers="d1623e115-desc d1623e155" class="stentry chdesc">3333 CASH2</td>
+                    </tr></tbody></table></div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Hit <span class="ph uicontrol">Tab</span> until you get to the
+                        <span class="ph uicontrol">CType</span> field and select the most appropriate option
+                    for the customer.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Hit <span class="ph uicontrol">Tab</span> until you get to the <span class="ph uicontrol">Ph</span>
+                    (phone number) box and enter the client's phone number. Hit
+                        <span class="ph uicontrol">Tab</span>. If nothing happens, continue to step 7. If a
+                    pop-up window appears, complete the following steps:</span>
+                <ol type="a" class="ol substeps">
+                    <li class="li substep">
+                        <span class="ph cmd">From the pop-up window, select the correct address from the list and
+                            hit OK. If the correct address does not exist, hit "Cancel" and skip to
+                            step 7.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Go back to the <span class="ph uicontrol">Firm</span> field and enter the company
+                            name if present. If there is no company, enter the client's name, first
+                            then last, and hit <span class="ph uicontrol">Tab</span>.</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Select the correct account from the list. If you are unsure, choose the
+                            most current account (e.g. largest account number).</span>
+                    </li>
+                    <li class="li substep">
+                        <span class="ph cmd">Confirm that their name and address is correct. If yes, skip to step 9.
+                            If no, go back to 6b and choose a new account.</span>
+                    </li>
+                </ol>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Enter the client's name and mailing address on the left side of the screen.
+                    Leave the shorter <span class="ph uicontrol">Add1</span> box blank in all situations. If
+                    there is no second address line, leave <span class="ph uicontrol">Add2</span> blank. Do not
+                    type any text into <span class="ph uicontrol">ZIP4</span>.</span>
+                <div class="itemgroup info">
+                    <p class="p"><strong class="ph b">Note:</strong> The mailing name and address appear on different sides of the
+                        "Lawn &amp; Garden" and "Farm &amp; Field" forms. Make sure you enter the
+                        correct mailing information and not the optional reference information.</p>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">For <span class="ph uicontrol">AType</span> (account type), select either "Payment" for
+                    upfront payment (most common) or "Credit" for clients that will be billed
+                    later.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">If there is an optional reference name or address, enter that information in a
+                    similar manner on the right half of the window. It is acceptable to have only a
+                    name or an incomplete address.</span>
+                <div class="itemgroup info">
+                    <p class="p"><strong class="ph b">Note</strong>: Make sure that the optional reference's name does not exactly
+                        match the mailing address name, or the optional address will not print.
+                        Abbreviate the optional first name to a first initial if needed.</p>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Click to the <span class="ph uicontrol">County</span> field, type the county name, and hit
+                        <span class="ph uicontrol">Tab</span>. The <span class="ph uicontrol">Code</span> field to the
+                    right will automatically fill.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">In <span class="ph uicontrol">Town</span>, enter one of the following:</span>
+                <div class="itemgroup info">
+                    <ul class="ul" id="untitled1__ul_f4d_rvn_5fb">
+                        <li class="li">For Lawn &amp; Garden forms, skip the next <span class="ph uicontrol">Code</span>
+                            box and type in "88".</li>
+                        <li class="li">For Farm &amp; Field forms, enter the township name if provided.
+                            Otherwise, type "99U" and hit <span class="ph uicontrol">Tab</span>.</li>
+                    </ul>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd"><span class="ph uicontrol">Tab</span> to the <span class="ph uicontrol">Report No.</span> box and
+                    enter the report number.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">In the <span class="ph uicontrol">Charge</span> field, use "Prepaid" for prepaid clients,
+                    or "To Account" for credit (e.g. bill later) clients.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Go to the <a class="xref" href="enterFFSample.html" title="Enter farm and field sample information for a new order.">Enter "Farm &amp; Field" sample info</a> or <a class="xref" href="enterLGSample.html" title="Enter sample information for Lawn &amp; Garden samples.">Enter "Lawn &amp; Garden" sample info</a> link to continue entering this order. Do NOT alter the <span class="ph uicontrol">Date
+                        Rec'd</span> under any circumstances.</span>
+            </li></ol>
+    </div>
+</article></main></div>
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container text-center ">
+    Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">&lt;oXygen/&gt; XML WebHelp</a> - Trial Edition
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close glyphicon glyphicon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        <script src="./oxygen-webhelp/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        
+    </body>
+</html>
